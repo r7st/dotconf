@@ -23,7 +23,7 @@ bind x
 
 # status lines
 hardstatus off  # no hardstatus bar
-caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-="  # pretty caption (no vert split bar)
+caption always "%{=}%-w%{= BW}%n %t%{-}%+w %-="  # pretty caption (no vert split bar)
 rendition so "="  # no horizontal split bar
 # empty title for new buffers, unset PROMPT_COMMAND in bashrc prevents auto-rename
 shelltitle ""
