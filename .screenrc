@@ -28,6 +28,12 @@ rendition so "="  # no horizontal split bar
 # empty title for new buffers, unset PROMPT_COMMAND in bashrc prevents auto-rename
 shelltitle ""
 
+# 1 index for new windows
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
+
 # vi key focus
 bind k focus up
 bind j focus down
