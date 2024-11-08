@@ -8,6 +8,11 @@ title = "[term]"
 #title = "[alacritty]"
 #title = ""
 
+[terminal]
+shell.program = "bash"
+shell.args = ["-c", "screen"]
+#shell.args = ["-c", "/usr/local/bin/screen"]
+
 [font]
 size = 12.0
 
