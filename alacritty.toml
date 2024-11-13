@@ -19,3 +19,5 @@ size = 12.0
 [colors]
 primary.background = "#00091a"
 primary.foreground = "#fff2e6"
+primary.dim_foreground = "#fff2e6"
+primary.bright_foreground = "#fff2e6"
